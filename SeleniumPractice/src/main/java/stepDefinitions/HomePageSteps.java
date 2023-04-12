@@ -18,6 +18,7 @@ public class HomePageSteps {
 	@Given("user is on Home Page")
 	public void userInHomePage(){
 		homePage.navigateTo_HomePage();	
+System.out.println("hi")
 	}
 
 	@When("user searches for {string}")
